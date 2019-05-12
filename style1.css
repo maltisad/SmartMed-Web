@@ -1,0 +1,607 @@
+body{
+	margin: 0;
+
+}
+.menu-items{
+	float: right;
+	margin-right: 112px;
+}
+.navigation{
+	height: 59px !important;
+font-family: 'Cinzel', serif;
+letter-spacing: 4px;
+color: #586c81;
+}
+
+.navigation img{
+	float: left;
+	margin-left: 100px;
+	width: 20%;
+}
+
+.navigation li {
+	    display: inline;
+    margin-right: 64px;
+    font-size: 18px;
+	
+}
+.navigation li:nth-child(1) {
+	border-bottom: 2px solid #3ac5c8;
+}
+
+.menu-button{
+	    border-radius: 19px;
+	    font-family: 'Cinzel', serif;
+	    color: white;
+    border-style: none;
+    width: 161px;
+    height: 33px;
+    /* color: purple; */
+    background-color: #55bce9;
+}
+
+.container-button{
+   border-radius: 6px;
+    border-style: none;
+    width: 282px;
+    height: 49px;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    background-color: #9894c4;
+}
+
+
+.slider{
+	 position: relative;
+  text-align: center;
+  color: white;
+  top: 7px;
+}
+.slider img{
+	width: 100%;
+	height: 550px;
+
+}
+.slider p{
+   position: absolute;
+    
+    top: -4%;
+   
+        left: 74%;
+    letter-spacing: 7px;
+    font-size: 62px;
+    font-family: 'Pacifico', cursive;
+	
+}
+.slider button{
+	  position: absolute;
+    top: 56%;
+    left: 76%;
+}
+
+
+.column1,.column2,.column3 {
+  float: left;
+background-size: cover;
+position: relative;
+
+  width: 33.33%;
+  padding:0px;
+  height: 500px; 
+}
+
+
+.column1 {
+background-image: url(images/p2.jpeg) !important;
+
+}
+.overlay{
+position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+.column1 .overlay{
+	background:#5eb6dd;
+	opacity: 0.7;
+
+   
+}
+.column2 {
+background-image: url(images/p1.jpeg);
+
+}
+.column1,.column2,.column3 {
+  float: left;
+background-size: cover;
+position: relative;
+
+  width: 33.33%;
+  padding:0px;
+  height: 500px; 
+}
+
+
+.column1 {
+background-image: url(images/03.jpg);
+
+}
+.overlay{
+position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+.column1 .overlay{
+	background:#5eb6dd;
+	opacity: 0.7;
+
+   
+}
+.column2 {
+background-image: url(images/p1.jpeg);
+
+}
+
+.column2 .overlay{
+	background:#729fd3;
+	opacity: 0.7;
+}
+
+.column3 {
+background-image: url(images/p3.jpeg);
+
+}
+.column3 .overlay{
+	background:#7a74b1;
+	opacity: 0.7;
+}
+
+
+.overlay h4,h3{
+	margin-left: 100px;
+}
+
+.overlay form{
+	margin-left: 55px;
+	    margin-top: 10px;
+}
+.overlay input,select{
+	margin-top: 25px;
+	display: block;
+	background-color: transparent;
+	border:1px solid white;
+     width: 363px;
+     font-size: 20px;
+    height: 54px;
+
+}
+
+#order{
+		margin-top: 25px;
+	display: block;
+	background-color: transparent;
+	border:1px solid white;
+     width: 363px;
+     font-size: 20px;
+    height: 54px;
+}
+
+.overlay ::placeholder{
+	    color:white;
+    font-size: 20px;
+    padding-left: 11px;
+
+}
+select#department{
+ color:white;
+ padding-left: 11px;	
+}
+select option {
+    margin: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size:12x;
+}
+.overlay button{
+	    background-color: #ff8d00;
+    opacity: 1;
+    color: white;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+
+.overlay p{
+	   font-family: cursive;
+}
+.doctor{
+    margin-top: 44px;
+       margin-left: 203px;
+    font-size: 23px;
+    margin-bottom: 0px;
+          font-family: 'Cinzel', serif;
+    letter-spacing: 5px;
+}
+
+.visit{
+	    margin-top: 0px;
+	    margin-left: 171px;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+        font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+}
+
+.column2 ul{
+	list-style-type: none;
+	    margin-left: 29px;
+    
+    margin-right: 53px;
+}
+.column2  li{
+	    font-size: 20px;
+    font-family: monospace;
+    padding-bottom: 0px;
+    padding-top: 20px;
+        margin-left: 30px;
+}
+
+.column3 li{
+	font-size: 20px;
+    font-family: monospace;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+
+.staff{
+	margin-top: 580px;
+	height: 561px;
+
+	
+}
+
+.staff-personel{
+	margin-left: 47px;
+  float: left;
+background-size: cover;
+border:5px solid black;
+background-color: #f6f6f6;
+border:2.5px solid white;
+border-style: double;
+  width: 20%;
+  padding:0px;
+  margin-right: 20px;
+  height: 453px; /* Should be removed. Only for demonstration */
+}
+
+.staffphoto{
+	width:99%;
+
+}
+
+.staff-personel .name{
+	margin-left: 50px;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+   letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.staff-personel .position{
+    margin-top: 7px;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    margin-left: 73px;
+}
+#title{
+	    margin-left: 614px;
+    font-size: 44px;
+    font-family: sans-serif;
+    font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    letter-spacing: 6px;
+}
+
+.staff-icons img{
+margin-right: 8px;
+}
+
+
+.staff-icons {
+margin-left: 84px;
+}
+
+
+
+.services{
+	background-image: url(images/background1.png);
+	margin-top: 35px;
+}
+
+
+#services-photo{
+	margin-left: 225px;
+}
+
+
+
+.s-parts{
+	float: right;
+	display: inline;
+	justify-content: center;
+	   
+}
+.parts-text{
+	    margin-top: 129px;
+    margin-right: 91px;
+}
+
+#services-title{
+	font-family: sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+}
+#services-content{
+	font-size: 25px;
+margin-top:16px;
+color:white;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.Left-Side{
+	    width: 243px;
+	float: left;
+}
+
+#lista-img{
+	width:33%;
+	margin-bottom: 20px;
+}
+
+.Left-Side p {
+	float: right;
+	font-size: 20px;
+	   font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+.Right-Side{
+	float: right;
+	width: 243px;
+	margin-right:218px;
+}
+
+.Right-Side p {
+	float: right;
+	font-size: 18px;
+	color: white;
+	   font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+#health-care{
+	margin-right: 43px;
+}
+
+#num{
+	font-size: 80px;
+	margin-top: 0px;
+       margin-bottom: -11px;
+    color: #55bce9;
+
+    
+}
+
+#num-content{
+  margin-top: 0;
+    font-size: 28px;
+   margin-left: 14px;
+   font-family: 'Montserrat', sans-serif;
+   letter-spacing: 4px;
+
+}
+.Subscribe{
+	position: relative;
+	background:url(images/staff1.png);
+	height:900px;
+	background-size: cover;
+}
+
+.Subscribe img{
+	 margin-left: 50px;;
+}
+
+
+.doc-number{
+	    top: 620px;
+    left: 111px;
+	position: absolute;
+}
+
+.patient-number{
+	  top: 620px;
+    left: 450px;
+	position: absolute;
+}
+
+
+.rooms-number{
+	  top: 620px;
+    left: 850px;
+	position: absolute;
+}
+
+
+.life-number{
+	left: 1200px;
+    top: 620px;
+	position: absolute;
+}
+
+
+
+
+img#num2-img{
+	 margin-left: 71px;
+}
+.Subscribe-Text h3{
+     font-family: 'Open Sans', sans-serif;
+    line-height: 1;
+    /* font-weight: 700; */
+    letter-spacing: 11px;
+    font-size: 27px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    color: #323232;
+
+}
+.Subscribe-Text h1{
+	    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: #55bce9;
+    letter-spacing: 22px;
+    
+
+}
+
+.Subscribe-Text{
+	    margin-left: 500px;
+    padding-top: 91px;
+}
+.Subscribe-Text input{
+     margin-top: 25px;
+    display: block;
+    border: 1px solid white;
+    width: 386px;
+    font-size: 20px;
+    margin-left: 44px;
+    height: 54px;
+}
+
+.Subscribe-Text ::placeholder{
+	padding-left:80px;
+}
+button#Subscribe-button{
+	    width: 218px;
+    height: 49px;
+    color: white;
+    margin-left: 126px;
+    margin-top: 51px;
+    background-color: #55bce9;
+    border-style: none;
+    letter-spacing: 7px;
+    font-size: 17px;
+}
+.C-Form{
+	margin-left: 100px;
+	height:400px;
+	float:left;
+	margin-top: 38px;
+}
+.C-Form input{
+	border-top-width: 0px;
+   margin-right: 41px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+}
+#name,#lname{
+	     width: 279px;
+    height: 37px;
+    margin-bottom: 20px;
+}
+
+#sms{
+	    width: 598px;
+    height: 80px;
+}
+.C-Form button{
+	    margin-top: 25px;
+    margin-left: 439px;
+    width: 166px;
+    height: 39px;
+    border-radius: 34px;
+    border-style: none;
+    font-size: 16px;
+    background-color: #55bce9;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.C-Form p {
+	    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+
+.Contact-Text{
+    float: right;
+    /* width: 25%; */
+    margin-right: 92px;
+    /* margin-left: 75px; */
+    margin-top: 100px;
+
+}
+.Contact-Text img{
+	float: left;
+	padding-right: 15px;
+	
+}
+
+
+#title-contact{
+	font-size: 22px;
+}
+
+#Contact-Content{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin-bottom: 36px;
+
+	margin-top: 0px;
+}
+
+
+
+#Contact-Link{
+	
+	font-size: 22px;
+}
+
+#message{
+	height: 200px;
+}
+
+
+.C-Form ::placeholder{
+	
+    font-size: 17px;
+    padding-left: 11px;
+    letter-spacing: 1px;
+
+}
+
+#submit-button{
+background-color: blue;
+    width: 200px;
+    margin-left: 81px;
+}
+
+h1,h3{
+	    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+}
