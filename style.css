@@ -1,0 +1,1137 @@
+body{
+	margin: 0;
+
+}
+
+*{
+  box-sizing: border-box; }
+
+.li-list:nth-child(1) {
+  
+      color: white;
+    font-size: 34px;
+  margin-right: 206px;
+    font-family: 'Sonsie One', cursive;
+}
+.ul-list {
+      padding-left: 8px;
+    list-style-type: none;
+    /* margin: 0; */
+    /* padding: 0; */
+    overflow: hidden;
+    background-color: #79759b;
+    margin-bottom: 0px;
+}
+
+.li-list {
+  float: left;
+      margin-right: 57px;
+
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.li-list a {
+display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+}
+
+.active {
+  background-color: #a9a4d7;
+}
+
+#SmartLogo{
+  width: 20%;
+}
+
+
+.column1 {
+background-image: url(images/index-pic/p2.jpeg);
+background-size: cover;
+
+}
+
+
+.column3 {
+background-image: url(images/index-pic/p3.jpeg);
+background-size: cover;
+
+}
+.column2 {
+background-image: url(images/index-pic/p1.jpeg);
+background-size: cover;
+}
+
+.column1 .overlay{
+  background:#5eb6dd;
+  opacity: 0.7;
+  height: 466px;
+}
+
+.column2 .overlay{
+  background:#729fd3;
+  opacity: 0.7;
+height: 466px;
+}
+.column3 .overlay{
+  background:#7a74b1;
+  opacity: 0.7;
+  height: 466px;
+   
+}
+.column2 ul {
+    list-style-type: none;
+    margin-left: 29px;
+    margin-right: 53px;
+}
+.column2 li {
+    font-size: 20px;
+    font-family: monospace;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.column3 li {
+    font-size: 20px;
+    font-family: monospace;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.doctor {
+     padding-top: 35px;
+    margin-left: 179px;
+    font-size: 23px;
+    margin-bottom: 0px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 5px;
+}
+.visit {
+    margin-top: 0px;
+    margin-left: 171px;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+}
+
+.overlay h4,h3{
+  margin-left: 100px;
+}
+
+.overlay ::placeholder{
+      color:white;
+    font-size: 20px;
+    padding-left: 11px;
+
+}
+.overlay form{
+  margin-left: 55px;
+      margin-top: 10px;
+}
+.overlay input,select{
+  margin-top: 25px;
+  display: block;
+  background-color: transparent;
+  border:1px solid white;
+     width: 363px;
+     font-size: 20px;
+    height: 54px;
+
+}
+
+select#department {
+    color: white;
+    padding-left: 11px;
+}
+#order {
+    margin-top: 25px;
+    display: block;
+        background-color: #9696cc;
+    border: 1px solid white;
+    width: 363px;
+    font-size: 20px;
+    height: 38px;
+     color: white;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 20px;
+}
+.overlay p {
+    font-family: cursive;
+}
+
+.Subscribe-Text{
+  flex: 95%;
+  max-width: 100%;
+ 
+}
+.subscribe-container{
+   background: url(images/index-pic/staff.jpg);
+background-size: cover;
+}
+
+.Subscribe-Text{
+  height: 471px;
+padding-top:30px;
+padding-left: 500px;
+padding-bottom: 40px;
+
+}
+
+.Subscribe-Text input{
+       width: 37%;
+    margin-left: 7%;
+    font-size: 20px;
+  display: block;
+    height: 54px;
+    box-shadow: 3px 3px grey;
+}
+button#Subscribe-button{
+          width: 22%;
+    margin-top: 2%;
+    margin-left: 12%;
+      height: 40px;
+    color: white;
+  background-color: #55bce9;
+    border-style: none;
+    border: 2px solid #4f8ba1;
+    letter-spacing: 7px;
+    font-size: 17px;
+}
+
+.Subscribe-Text h3{
+     font-family: 'Open Sans', sans-serif;
+    line-height: 1;
+     font-weight: 700;
+    letter-spacing: 11px;
+    font-size: 27px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+   color: #323232;
+
+}
+.Subscribe-Text h1{
+      font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: #55bce9;
+    letter-spacing: 22px;
+}
+
+.staffphoto{
+  width: 80%;
+}
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  width:100%;
+  height:auto;
+}
+
+
+.box {
+ /* position:relative;*/
+  margin:10px;
+  height:50px;
+  border-radius:3px;
+}
+
+.size1{flex: 1 1800px}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column1,.column2,.column3{
+  flex: 25%;
+  max-width: 35%;
+ 
+  height: 488px;
+}
+
+.services{
+  background-image: url(images/index-pic/background3.png);
+  margin-top: 35px;
+}
+
+
+#services-photo{
+  margin-left: 225px;
+}
+
+
+
+.s-parts{
+  float: right;
+  display: inline;
+  justify-content: center;
+     
+}
+.parts-text{
+      margin-top: 129px;
+    margin-right: 91px;
+}
+
+#services-title{
+  font-family: sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+}
+#services-content{
+  font-size: 25px;
+margin-top:16px;
+color:white;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.Left-Side{
+      width: 243px;
+  float: left;
+}
+
+#lista-img{
+  width:33%;
+  margin-bottom: 20px;
+}
+
+.Left-Side p {
+  float: right;
+  font-size: 20px;
+     font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.Right-Side{
+  float: right;
+  width: 243px;
+  margin-right:218px;
+}
+
+.Right-Side p {
+  float: right;
+  font-size: 18px;
+  color: white;
+     font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.doc-number{
+
+      flex: 25%;
+    padding-top: 71px;
+    height:298px;
+    /* height: 64%; */
+    max-width: 35%;
+}
+#doc-text{
+  padding-left: 150px;
+}
+
+
+#num,#num1,#num2,#num3{
+  font-size: 80px;
+  margin-top: 0px;
+       margin-bottom: -11px;
+    color: #55bce9;   
+}
+
+#num-content{
+  margin-top: 0;
+    font-size: 28px;
+   margin-left: 14px;
+   font-family: 'Montserrat', sans-serif;
+   letter-spacing: 4px;
+
+}
+.subscribe-container img{
+   margin-left: 36px;
+}
+
+
+.C-Form{
+  flex: 31%;
+  max-width: 55%;
+
+  padding-left: 100px;
+}
+
+
+.C-Form input{
+  border-top-width: 0px;
+   margin-right: 41px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+}
+
+
+
+
+#name,#lname{
+       width: 279px;
+    height: 37px;
+    margin-bottom: 20px;
+}
+
+#sms{
+    
+    height: 80px;
+    width: 92%;
+}
+.C-Form button{
+      margin-top: 25px;
+   
+    width: 166px;
+    height: 39px;
+    border-radius: 34px;
+    border-style: none;
+    font-size: 16px;
+    background-color: #55bce9;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.C-Form p {
+      font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+
+.Contact-Text{
+    float: right;
+    /* width: 25%; */
+    margin-right: 92px;
+    /* margin-left: 75px; */
+    margin-top: 100px;
+
+}
+.Contact-Text img{
+  float: left;
+  padding-right: 15px;
+  
+}
+
+.staffphoto {
+   
+    width: 100%;
+}
+#title-contact{
+  font-size: 22px;
+}
+
+#Contact-Content{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin-bottom: 36px;
+
+  margin-top: 0px;
+}
+
+
+
+#Contact-Link{
+  
+  font-size: 22px;
+}
+
+
+
+
+.staff-personel{
+flex: 24%;
+    max-width: 18%;
+    background-size: cover;
+    background-color: #f6f6f6;
+    box-shadow: 10px 6px 10px 8px#d7d7d7;
+    height: 410px;
+    margin-left: 87px;
+}
+.staff-personel .name{
+  margin-left: 67px;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+   letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.staff-personel .position{
+    margin-top: 7px;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    margin-left: 73px;
+}
+
+#title{
+    
+       font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 693px;
+}
+
+.staff-icons{
+  margin-left: 29%;
+}
+.staff-icons img{
+margin-right: 8px;
+
+}
+
+
+
+.menu-items{
+  float: right;
+  margin-right: 112px;
+
+}
+
+.navigation a{
+  text-decoration: none;
+  text-transform: uppercase;
+   font-weight: bold;
+    color: #969fa8;
+
+letter-spacing: 4px;
+}
+
+.navigation img{
+  float: left;
+  margin-left: 100px;
+  width: 20%;
+}
+
+.navigation li {
+      display: inline;
+    margin-right: 64px;
+    font-size: 18px;
+  
+}
+.navigation li:nth-child(1) {
+  border-bottom: 2px solid #3ac5c8;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px){
+  .column1,.column2,.column3{
+
+    flex: 100%;
+    max-width: 100%;
+  }
+  .services{
+    display: none;
+  }
+  .staff-personel{
+
+    flex: 50%;
+    max-width: 38%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-left:40px;
+    
+  }
+  .staff-personel .name ,.staff-personel .position {
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .C-Form{
+  flex: 50%;
+  max-width: 100%;
+  border:1px solid black;
+
+ }
+ .Subscribe-Text{
+  margin:0;
+  padding-left:15%;
+  padding-bottom: 0;
+}
+.subscribe-container{
+height: 100%;
+}
+.Subscribe-Text h3,.Subscribe-Text h1{
+ margin:0 0 10px 0;
+ font-size: 22px;
+  letter-spacing: 10px;
+
+}
+.Subscribe-Text h3{
+ padding-top: 60px;
+ margin-left:18%;
+}
+.Subscribe-Text h1{
+  color:blue;
+ margin-left:20%;
+ margin-bottom: 20px;
+}
+/*.subscribe-container{
+  height: 100%;
+}*/
+button#Subscribe-button{
+width: 30%;
+height: 45px;
+margin-left:29%;
+}
+.Subscribe-Text input {
+  width: 60%;
+  height: 45px;
+  margin-left:15%;
+  margin-bottom: 20px;
+}
+.overlay form{
+  margin-left:15%;
+  }
+.column2 ul,.time{
+  margin-left:5%;
+}
+
+
+.doc-number{
+
+      flex: 40%;
+ padding:0 0 0 0 ;
+ margin: 0;
+ height: 100%;
+    max-width: 45%;
+}
+#doc-text{
+  padding-left:80px;
+}
+.subscribe-container img{
+ width: 0%;
+}
+#num, #num1, #num2, #num3 {
+    font-size: 50px;
+    margin-left: 10px;
+}
+#num-content {
+  font-size: 18px;
+}
+.ul-list{
+  padding: 0;
+}
+.li-list {
+  float:none;
+  margin: 0;
+}
+#sm{
+  font-size: 15px;
+  margin: 0;
+  padding-left: 40%;
+ 
+}
+.li-list a{
+ 
+ 
+  padding: 0;
+
+}
+#title{
+  font-size: 20px;
+  margin-left: 45%;
+}
+.name,.position{
+  padding-left:20%;
+  padding-bottom:5px;
+  font-size: 30px;
+}
+.staff-icons{
+  margin-left:16%;
+
+}
+.Contact-Text{
+  margin: 20px 20px 30px 0;
+}
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px){
+  .column1,.column2,.column3{
+
+    flex: 100%;
+    max-width: 100%;
+
+  }
+
+  .services{
+    display: none;
+  }
+  .staff-personel{
+
+    flex: 25%;
+    max-width: 30%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    
+  }
+  .staff-personel .name ,.staff-personel .position {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .C-Form{
+  flex: 50%;
+  max-width: 100%;
+  border:1px solid black;
+ }
+  .Subscribe-Text{
+  margin:0;
+  padding-left:20%;
+}
+.Subscribe-Text h3,.Subscribe-Text h1{
+ margin:0 0 10px 0;
+ font-size: 22px;
+ letter-spacing: 15px;
+
+}
+.subscribe-container{
+height: 100%;
+}
+.Subscribe-Text h3{
+ padding-top: 60px;
+ margin-left:18%;
+}
+.Subscribe-Text h1{
+  color:blue;
+ margin-left:20%;
+ margin-bottom: 20px;
+}
+/*.subscribe-container{
+  height: 100%;
+}*/
+button#Subscribe-button{
+width: 35%;
+height: 40px;
+margin-left:23%;
+}
+.Subscribe-Text input {
+  width: 50%;
+  height: 45px;
+  margin-left:15%;
+  margin-bottom: 20px;
+}
+.overlay form{
+  margin-left:25%;
+  }
+.column2 ul,.time{
+  margin-left:5%;
+}
+.doctor,.visit{
+
+margin-left: 40%;
+}
+
+
+.doc-number{
+
+      flex: 50%;
+ padding:10px 0 0 100px ;
+ margin: 0;
+ height: 100%;
+    max-width: 35%;
+}
+#doc-text{
+  padding-left:80px;
+}
+.subscribe-container img{
+ width: 0%;
+}
+
+#num, #num1, #num2, #num3 {
+    font-size: 50px;
+    margin-left: 10px;
+}
+#num-content {
+  font-size: 18px;
+}
+.ul-list{
+  padding: 0;
+}
+.li-list {
+  float:none;
+  margin: 0;
+
+}
+.li-list a{
+  padding:2px;
+}
+#sm{
+  font-size: 15px;
+  margin: 0;
+  padding-left: 40%;
+ 
+}
+#title{
+  font-size: 20px;
+  margin-left: 45%;
+}
+.name,.position{
+  padding-left:20%;
+  padding-bottom:5px;
+  font-size: 30px;
+}
+.staff-icons{
+  margin-left:23%;
+
+}
+}
+@media only screen and (min-width: 900px) and (max-width: 1024px){
+  .column1,.column2,.column3{
+
+    flex: 70%;
+    max-width: 100%;
+
+  }
+.overlay form{
+  margin-left:30%;
+  }
+.column2 ul,.time{
+  margin-left:5%;
+}
+.doctor,.visit{
+
+margin-left: 40%;
+}
+ .services{
+    display: none;
+  }
+   
+  .staff-personel{
+flex: 25%;
+    max-width: 31%;
+   
+   margin-bottom: 20px;
+   margin-left: 13%;
+    
+  }
+  .staff-personel .name ,.staff-personel .position {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .C-Form{
+  flex: 50%;
+  max-width: 100%;
+  border:1px solid black;
+ }
+ .Subscribe-Text{
+  margin-left: 32%;
+  height: 200px;
+  padding: 0 0 400px 0;
+
+}
+.Subscribe-Text h3,.Subscribe-Text h1{
+ margin:0 0 10px 0;
+ font-size: 30px;
+}
+.Subscribe-Text h3{
+ padding-top: 90px;
+ margin-left: 40px;
+}
+.subscribe-container{
+  height: 100%;
+}
+button#Subscribe-button{
+width: 200px;
+height: 40px;
+}
+.Subscribe-Text input {
+  width: 285px;
+  height: 40px;
+  margin-bottom: 20px;
+} 
+.doc-number{
+
+      flex: 14%;
+ padding:10px 0 0 0 ;
+ margin: 0;
+ height: 100%;
+    max-width: 100%;
+}
+
+#doc-text{
+  margin:60px 0 0 60px;
+  padding: 0;
+}
+.subscribe-container img{
+ width: 25%;
+}
+
+#num, #num1, #num2, #num3 {
+    font-size: 50px;
+    margin-left: 25px;
+}
+#num-content {
+  font-size: 18px;
+}
+.ul-list{
+  padding: 0;
+}
+.li-list {
+  float:none;
+  margin: 0;
+
+}
+.li-list a{
+  padding:2px;
+}
+#sm{
+  font-size: 15px;
+  margin: 0;
+  padding-left: 45%;
+ 
+}
+#title{
+  font-size: 20px;
+  margin-left: 45%;
+}
+.name,.position{
+  padding-left:20%;
+  padding-bottom:5px;
+  font-size: 30px;
+}
+.staff-icons{
+  margin-left:26%;
+
+}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+
+  .column1,.column2,.column3{
+        flex: 60%;
+    max-width: 100%;
+
+  }
+  .overlay form{
+  margin-left:30%;
+  }
+.column2 ul,.time{
+  margin-left:5%;
+}
+.doctor,.visit{
+
+margin-left: 40%;
+}
+ .services{
+    display: none;
+  }
+  
+  .staff-personel{
+    flex: 15%;
+    max-width: 25%;
+    height: 100%; 
+   margin-bottom: 22px;
+   margin-left: 29px;
+    
+  }/
+  .staff-personel .name ,.staff-personel .position {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .C-Form{
+  flex: 50%;
+  max-width: 100%;
+  border:1px solid black;
+ }
+ .Subscribe-Text{
+  margin-left: 32%;
+  height: 200px;
+  padding: 0 0 400px 0;
+
+}
+.Subscribe-Text h3,.Subscribe-Text h1{
+ margin:0 0 10px 0;
+ font-size: 30px;
+}
+.Subscribe-Text h3{
+ padding-top: 90px;
+ margin-left: 40px;
+}
+.subscribe-container{
+  height: 100%;
+}
+button#Subscribe-button{
+width: 200px;
+height: 40px;
+}
+.Subscribe-Text input {
+  width: 285px;
+  height: 40px;
+  margin-bottom: 20px;
+} 
+.doc-number{
+
+      flex: 14%;
+ padding:10px 0 0 0 ;
+ margin: 0;
+ height: 100%;
+    max-width: 100%;
+}
+
+#doc-text{
+  margin:60px 0 0 60px;
+  padding: 0;
+}
+.subscribe-container img{
+ width: 25%;
+}
+
+#num, #num1, #num2, #num3 {
+    font-size: 50px;
+    margin-left: 25px;
+}
+#num-content {
+  font-size: 18px;
+}
+.ul-list{
+  padding: 0;
+}
+.li-list {
+  float:none;
+  margin: 0;
+
+}
+.li-list a{
+  padding:2px;
+}
+#sm{
+  font-size: 15px;
+  margin: 0;
+  padding-left: 45%;
+}
+
+#title{
+  font-size: 20px;
+  margin-left: 45%;
+}
+.name,.position{
+  padding-left:20%;
+  padding-bottom:5px;
+  font-size: 30px;
+}
+.staff-icons{
+  margin-left:26%;
+
+}
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1528px){
+
+.column1,.column2,.column3{
+
+    flex: 24%;
+    max-width: 100%;
+
+  }
+
+ .services{
+    display: none;
+  }
+  
+  .staff-personel{
+    flex: 17%;
+    max-width: 20%;
+     margin-bottom: 22px;
+  
+    
+  }
+
+
+  .C-Form{
+  flex: 50%;
+  max-width: 100%;
+  border:1px solid black;
+ }
+ .Subscribe-Text{
+  margin-left: 32%;
+  height: 200px;
+  padding: 0 0 400px 0;
+
+}
+.Subscribe-Text h3,.Subscribe-Text h1{
+ margin:0 0 10px 0;
+ font-size: 30px;
+}
+.Subscribe-Text h3{
+ padding-top: 90px;
+ margin-left: 40px;
+}
+.subscribe-container{
+  height: 100%;
+}
+button#Subscribe-button{
+width: 200px;
+height: 40px;
+}
+.Subscribe-Text input {
+  width: 285px;
+  height: 40px;
+  margin-bottom: 20px;
+} 
+.doc-number{
+
+      flex: 14%;
+ padding:10px 0 0 0 ;
+ margin: 0;
+ height: 100%;
+    max-width: 100%;
+}
+
+#doc-text{
+  margin:60px 0 0 60px;
+  padding: 0;
+}
+.subscribe-container img{
+ width: 25%;
+}
+
+#num, #num1, #num2, #num3 {
+    font-size: 50px;
+    margin-left: 25px;
+}
+#num-content {
+  font-size: 18px;
+}
+
+.ul-list{
+  padding: 0;
+}
+.li-list {
+  float:none;
+  margin: 0;
+
+}
+.li-list a{
+  padding:2px;
+}
+#sm{
+  font-size: 15px;
+  margin: 0;
+  padding-left: 45%;
+}
+#title{
+  font-size: 20px;
+  margin-left: 45%;
+}
+
+
+
+}

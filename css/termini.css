@@ -1,0 +1,53 @@
+
+input[type="text"]
+ {
+        display: block;
+    width: 100%;
+  
+    margin-bottom: 20px;
+    padding: 11px;
+    border-radius: 9px;
+    background: #fff;
+    border: 1px solid rgb(212, 212, 212);
+    font-family: sans-serif;
+    font-weight: 600;
+   
+}
+
+input[type="submit"] {
+     display: block;
+    width: 100%;
+    
+    margin-top: 11px;
+    padding: 14px;
+    border-radius: 7px;
+       background-color: #79759b;
+    letter-spacing: 2px;
+    border: 1px solid #d7d3d3;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+select{
+        width: 58%;
+    padding: 6px;
+   margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+
+button,input[type="submit"] {
+    cursor: pointer;
+}
+
+
+
+form{
+    margin: 40px 341px;
+}
+a {
+    float: right;
+}

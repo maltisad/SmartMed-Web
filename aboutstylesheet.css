@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
+
+body{
+  
+  font-family: 'Raleway', sans-serif;
+  font-weight:200;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    font-weight:200;
+}
+
+h2{
+    font-weight:200;
+  width:50%;
+  margin-left: 160px;
+}
+
+h3{
+    font-weight:200;
+}
+
+p{
+  font-weight:200;
+  
+}
+
+header{
+    background-color:#94c2cf;
+    height:60px;
+    position:fixed;
+    width:100%;
+  overflow:hidden;
+  
+}
+
+header .logo{
+  font-size:40px;
+  color:white;
+  padding:5px;
+  padding-left:10px; 
+  float:left;
+  
+}
+
+
+
+section .images{
+  text-align:center;
+
+
+}
+.images img {
+    height: 250px;
+    width: 250px;
+    margin-left: 8px;
+    margin-bottom: 7px;
+}
+
+
+
+
+.wrap{
+  max-width:760px;
+  margin:auto;
+  padding-left:5px;
+  padding-right:5px;
+  
+}
+
+
+#hello{
+
+  padding-top:30px;
+  padding-bottom: 40px;
+ 
+
+
+}
+
+h1{
+    font-weight:400;
+     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+#hello p{
+  width:50%;
+  font-weight:400;
+}
+
+
+
+
+#sherbimi-title{
+  margin-left:5px;
+  letter-spacing: 1px;
+
+}
+
+
+
+/* responsive */
+@media screen and (min-width: 640px) {
+  .col-group {
+    overflow: hidden;
+  }
+  .col-group > div {
+    float: left;
+    width: 30%;
+  }
+
+}
+
+
